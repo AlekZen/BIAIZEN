@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{3793F40C-EC3D-4E8B-A66A-DE3C532A9EF2}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{D0798DE7-FBE6-490A-9FC8-095D1B744CA2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -47,7 +47,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmkgpWvWFEUepH8+Vcp/52AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADS6M6MmGJdxe+YPPlSPtiNAmF+jf0snA973ZrQBlNsTwAAAAAOgAAAAAIAACAAAACGuPxdWtB6sMEvMz2CY+3rO2+4ngLOHcfwj9DqKNt9uCAAAADk662p6LzcKigUyUmxfWS2ybw6Bif4LBGL/1j1nfjn1kAAAAADudU9Rm6iwKd5aQUdF+Lcqp6UVf9hiWn3angtFCGIEM3f0wlLpr3jYvhIZCOF4E2J+qwf5gqUv1uJMkE+08yh</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmkgpWvWFEUepH8+Vcp/52AAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACBYoOr418HlP6WPpmGuJRX+bUmwUGQzUBRLcgehj6ZpAAAAAAOgAAAAAIAACAAAACJv/j3wAFudDG6NFerrR0MY2Px9qFw3/rc8bM+k1UOwyAAAACUpPXubbn+U52ioId57sSJvMDgoS+uOWnF6HG3e4+9REAAAACNjlhzwW/GPJ59Ek8wKjQP3bPUtjmWBhlF8MxvCow/j1zzGg6sdFOz8eY3Y3cfmKONVV+C2sUM9+TtAaoC0Te9</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -521,7 +521,8 @@ FROM master.sys.databases</property>
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
-        <SQLTask:SqlTaskData xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{9ED88245-0D6A-47A1-86BD-DCF53A7AA573}" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
